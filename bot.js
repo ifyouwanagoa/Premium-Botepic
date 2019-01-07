@@ -26,7 +26,7 @@ client.on('message', message => {
 🖤($call ⟿⟿ Contact with admin)🖤
 🖤($kv ⟿⟿⟿⟿⟿ Kick from voice)🖤
 🖤($kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
-🖤(-$ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
+🖤($ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
 🖤($role all ⟿⟿⟿⟿⟿ From All)🖤
 🖤($role humans ⟿ From All Humans)🖤
 🖤($role bots ⟿⟿⟿ From All Bots)🖤
