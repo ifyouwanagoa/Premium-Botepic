@@ -714,7 +714,7 @@ client.on('message', message => {
 
 🖤($rules ⟿⟿⟿⟿⟿ Server rules)🖤
 
-🖤($invite ⟿⟿⟿⟿⟿ invite bot)🖤
+🖤($invite ⟿⟿⟿⟿⟿ Server invite link)🖤
 
 💜_____ 🖤😎 - Premium BotEpic - 😎🖤  _____💜
 
