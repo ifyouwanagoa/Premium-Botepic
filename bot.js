@@ -937,4 +937,16 @@ client.on('guildCreate', guild => {
       guild.owner.send(embed)
 });
 
+client.on('message', message => {//Toxic Codes
+	var prefix = "$" ;
+  if (message.content.startsWith(prefix + "bi")) {//Toxic Codes
+    var embed = new Discord.RichEmbed()
+    .setTitle("https://cdn.discordapp.com/attachments/531764243008192513/531825760734937089/images.png")  //Toxic Codes 
+    .setColor("RANDOM")//Toxic Codes
+    .setImage(message.guild.iconURL)//Toxic Codes
+    message.channel.sendEmbed(embed);//Toxic Codes
+  }
+});
+
+
 client.login(process.env.BOT_TOKEN);
